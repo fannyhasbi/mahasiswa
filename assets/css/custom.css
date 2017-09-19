@@ -1,0 +1,70 @@
+body#index {
+	overflow-y: hidden;
+}
+
+.page-wrapper {
+	margin-top: 50px;
+}
+
+.page-content {
+	padding-top: 20px;
+}
+
+.content {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: #0090bd;
+}
+#header h1 {
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.navbar-default {
+	background-color: #0090BD;
+	z-index: 99;
+	border: none;
+	border-radius: 0;
+}
+
+.navbar-default .container a,
+.navbar-default .container li a {
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 4px;
+	transition: .3s;
+}
+
+.navbar-default .container li a:hover {
+	background-color: #E32683;
+	color: #fff;
+}
+.navbar-default .navbar-brand:hover {
+	color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-default button.navbar-toggle:hover,
+.navbar-default button.navbar-toggle:focus {
+	background-color: #E32683;
+}
+
+.navbar-default .container .dropdown .dropdown-menu a,
+.navbar-default .container .dropdown .dropdown-menu a:focus {
+	color: #fff;
+}
+.navbar-default .container .dropdown .dropdown-menu li a {
+	color: #000;
+}
+.navbar-default .container .dropdown .dropdown-menu li a:hover {
+	color: #fff;
+}
